@@ -1,0 +1,64 @@
+.mp-spot-landscape {
+  height: 100%;
+  background: no-repeat center top;
+  background-size: cover;
+  overflow: hidden;
+  position: relative; }
+  .mp-spot-landscape .swiper-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 180px; }
+    .mp-spot-landscape .swiper-container ul {
+      position: relative;
+      left: 0;
+      height: 100%; }
+      .mp-spot-landscape .swiper-container ul li {
+        width: 78px;
+        height: 100%;
+        float: left; }
+        .mp-spot-landscape .swiper-container ul li a {
+          display: block;
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          width: 78px;
+          height: 100%;
+          background-size: cover;
+          position: relative; }
+          .mp-spot-landscape .swiper-container ul li a span {
+            width: 78px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0.4;
+            z-index: 2; }
+          .mp-spot-landscape .swiper-container ul li a .color-0 {
+            background-color: #054667; }
+          .mp-spot-landscape .swiper-container ul li a .color-1 {
+            background-color: #580202; }
+          .mp-spot-landscape .swiper-container ul li a .color-2 {
+            background-color: #5e2503; }
+          .mp-spot-landscape .swiper-container ul li a .color-3 {
+            background-color: #013823; }
+          .mp-spot-landscape .swiper-container ul li a .color-4 {
+            background-color: #2d0355; }
+          .mp-spot-landscape .swiper-container ul li a div {
+            width: 80px;
+            padding-top: 20px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 3;
+            color: #fff;
+            text-align: center; }
+            .mp-spot-landscape .swiper-container ul li a div h2, .mp-spot-landscape .swiper-container ul li a div h3 {
+              font-size: 14px;
+              font-weight: normal;
+              margin-top: 10px;
+              padding: 0 5px; }
+            .mp-spot-landscape .swiper-container ul li a div h3 {
+              font-size: 12px; }
+  .mp-spot-landscape .swiper-slide {
+    opacity: 0.2;
+    -webkit-transform: translate3d(64px, 0, 0); }

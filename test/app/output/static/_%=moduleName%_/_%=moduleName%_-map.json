@@ -1,0 +1,269 @@
+{
+    "res": {
+        "<%=moduleName%>:page/base.tpl": {
+            "uri": "/template/_%=moduleName%_/page/base.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "<%=moduleName%>:page/gvars.tpl": {
+            "uri": "/template/_%=moduleName%_/page/gvars.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "<%=moduleName%>:page/module.tpl": {
+            "uri": "/template/_%=moduleName%_/page/module.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "<%=moduleName%>:page/page.tpl": {
+            "uri": "/template/_%=moduleName%_/page/page.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "<%=moduleName%>:static/css/app/page.scss": {
+            "uri": "/static/_%=moduleName%_/css/app/page_2fe2ebe.css",
+            "type": "css"
+        },
+        "<%=moduleName%>:static/css/core/_consts.scss": {
+            "uri": "/static/_%=moduleName%_/css/core/_consts_e393406.css",
+            "type": "css"
+        },
+        "<%=moduleName%>:static/css/core/_import.scss": {
+            "uri": "/static/_%=moduleName%_/css/core/_import_e393406.css",
+            "type": "css"
+        },
+        "<%=moduleName%>:static/css/core/_mixins.scss": {
+            "uri": "/static/_%=moduleName%_/css/core/_mixins_d41d8cd.css",
+            "type": "css"
+        },
+        "<%=moduleName%>:static/js/app/app.js": {
+            "uri": "/static/js/app/app_ebd888d.js",
+            "type": "js"
+        },
+        "<%=moduleName%>:static/js/app/init.js": {
+            "uri": "/static/_%=moduleName%_/js/app/init_c3cff40.js",
+            "type": "js",
+            "deps": [
+                "app:static/js/core/utils.js",
+                "app:static/js/app/app.js"
+            ]
+        },
+        "<%=moduleName%>:static/js/core/utils.js": {
+            "uri": "/static/js/core/utils_dbc3cca.js",
+            "type": "js"
+        },
+        "<%=moduleName%>:widget/cover-archeology/archeology.js": {
+            "uri": "/static/_%=moduleName%_/widget/cover-archeology/archeology_606a834.js",
+            "type": "js",
+            "deps": [
+                "<%=moduleName%>:widget/cover-archeology/archeology.scss"
+            ]
+        },
+        "<%=moduleName%>:widget/cover-archeology/archeology.scss": {
+            "uri": "/static/_%=moduleName%_/widget/cover-archeology/archeology_64a2906.css",
+            "type": "css"
+        },
+        "<%=moduleName%>:widget/cover-archeology/archeology.tpl": {
+            "uri": "_%=moduleName%_/widget/cover-archeology/archeology.tpl",
+            "type": "tpl",
+            "deps": [
+                "app:widget/cover-archeology/archeology.js",
+                "<%=moduleName%>:widget/cover-archeology/archeology.js",
+                "<%=moduleName%>:widget/cover-archeology/archeology.scss"
+            ]
+        },
+        "<%=moduleName%>:widget/cover-base/cover.tpl": {
+            "uri": "_%=moduleName%_/widget/cover-base/cover.tpl",
+            "type": "tpl"
+        },
+        "<%=moduleName%>:widget/cover-hotspring/hotspring.js": {
+            "uri": "/static/_%=moduleName%_/widget/cover-hotspring/hotspring_5db6bcd.js",
+            "type": "js",
+            "deps": [
+                "<%=moduleName%>:widget/cover-hotspring/hotspring.scss"
+            ]
+        },
+        "<%=moduleName%>:widget/cover-hotspring/hotspring.scss": {
+            "uri": "/static/_%=moduleName%_/widget/cover-hotspring/hotspring_4fe5aa8.css",
+            "type": "css"
+        },
+        "<%=moduleName%>:widget/cover-hotspring/hotspring.tpl": {
+            "uri": "_%=moduleName%_/widget/cover-hotspring/hotspring.tpl",
+            "type": "tpl",
+            "deps": [
+                "app:widget/cover-hotspring/cover-hotspring.js",
+                "<%=moduleName%>:widget/cover-hotspring/hotspring.js",
+                "<%=moduleName%>:widget/cover-hotspring/hotspring.scss"
+            ]
+        },
+        "<%=moduleName%>:widget/cover-landscape/landscape.js": {
+            "uri": "/static/_%=moduleName%_/widget/cover-landscape/landscape_a1234f6.js",
+            "type": "js",
+            "deps": [
+                "<%=moduleName%>:widget/cover-landscape/landscape.scss"
+            ]
+        },
+        "<%=moduleName%>:widget/cover-landscape/landscape.scss": {
+            "uri": "/static/_%=moduleName%_/widget/cover-landscape/landscape_e8da4ee.css",
+            "type": "css"
+        },
+        "<%=moduleName%>:widget/cover-landscape/landscape.tpl": {
+            "uri": "_%=moduleName%_/widget/cover-landscape/landscape.tpl",
+            "type": "tpl",
+            "deps": [
+                "app:widget/cover-landscape/landscape.js",
+                "<%=moduleName%>:widget/cover-landscape/landscape.js",
+                "<%=moduleName%>:widget/cover-landscape/landscape.scss"
+            ]
+        },
+        "<%=moduleName%>:widget/cover-oldtown/oldtown.js": {
+            "uri": "/static/_%=moduleName%_/widget/cover-oldtown/oldtown_c71e5a7.js",
+            "type": "js",
+            "deps": [
+                "<%=moduleName%>:widget/cover-oldtown/oldtown.scss"
+            ]
+        },
+        "<%=moduleName%>:widget/cover-oldtown/oldtown.scss": {
+            "uri": "/static/_%=moduleName%_/widget/cover-oldtown/oldtown_d41d8cd.css",
+            "type": "css"
+        },
+        "<%=moduleName%>:widget/cover-oldtown/oldtown.tpl": {
+            "uri": "_%=moduleName%_/widget/cover-oldtown/oldtown.tpl",
+            "type": "tpl",
+            "deps": [
+                "app:widget/cover-oldtown/oldtown.js",
+                "<%=moduleName%>:widget/cover-oldtown/oldtown.js",
+                "<%=moduleName%>:widget/cover-oldtown/oldtown.scss"
+            ]
+        },
+        "<%=moduleName%>:widget/cover-playground/playground.js": {
+            "uri": "/static/_%=moduleName%_/widget/cover-playground/playground_89da448.js",
+            "type": "js",
+            "deps": [
+                "<%=moduleName%>:widget/cover-playground/playground.scss"
+            ]
+        },
+        "<%=moduleName%>:widget/cover-playground/playground.scss": {
+            "uri": "/static/_%=moduleName%_/widget/cover-playground/playground_d41d8cd.css",
+            "type": "css"
+        },
+        "<%=moduleName%>:widget/cover-playground/playground.tpl": {
+            "uri": "_%=moduleName%_/widget/cover-playground/playground.tpl",
+            "type": "tpl",
+            "deps": [
+                "app:widget/cover-playground/playground.js",
+                "<%=moduleName%>:widget/cover-playground/playground.js",
+                "<%=moduleName%>:widget/cover-playground/playground.scss"
+            ]
+        },
+        "<%=moduleName%>:widget/cover-skiing/skiing.js": {
+            "uri": "/static/_%=moduleName%_/widget/cover-skiing/skiing_9432448.js",
+            "type": "js",
+            "deps": [
+                "<%=moduleName%>:widget/cover-skiing/skiing.scss"
+            ]
+        },
+        "<%=moduleName%>:widget/cover-skiing/skiing.scss": {
+            "uri": "/static/_%=moduleName%_/widget/cover-skiing/skiing_1cd7644.css",
+            "type": "css"
+        },
+        "<%=moduleName%>:widget/cover-skiing/skiing.tpl": {
+            "uri": "_%=moduleName%_/widget/cover-skiing/skiing.tpl",
+            "type": "tpl",
+            "deps": [
+                "app:widget/cover-skiing/skiing.js",
+                "<%=moduleName%>:widget/cover-skiing/skiing.js",
+                "<%=moduleName%>:widget/cover-skiing/skiing.scss"
+            ]
+        },
+        "<%=moduleName%>:widget/footer/footer.js": {
+            "uri": "/static/_%=moduleName%_/widget/footer/footer_8543688.js",
+            "type": "js",
+            "deps": [
+                "<%=moduleName%>:widget/footer/footer.scss"
+            ]
+        },
+        "<%=moduleName%>:widget/footer/footer.scss": {
+            "uri": "/static/_%=moduleName%_/widget/footer/footer_fa92a36.css",
+            "type": "css"
+        },
+        "<%=moduleName%>:widget/footer/footer.tpl": {
+            "uri": "_%=moduleName%_/widget/footer/footer.tpl",
+            "type": "tpl",
+            "deps": [
+                "app:widget/footer/footer.js",
+                "<%=moduleName%>:widget/footer/footer.js",
+                "<%=moduleName%>:widget/footer/footer.scss"
+            ]
+        },
+        "<%=moduleName%>:widget/gallery/gallery.js": {
+            "uri": "/static/_%=moduleName%_/widget/gallery/gallery_feed08d.js",
+            "type": "js",
+            "deps": [
+                "<%=moduleName%>:widget/gallery/gallery.scss"
+            ]
+        },
+        "<%=moduleName%>:widget/gallery/gallery.scss": {
+            "uri": "/static/_%=moduleName%_/widget/gallery/gallery_948baad.css",
+            "type": "css"
+        },
+        "<%=moduleName%>:widget/gallery/gallery.tpl": {
+            "uri": "_%=moduleName%_/widget/gallery/gallery.tpl",
+            "type": "tpl",
+            "deps": [
+                "app:widget/gallery/gallery.js",
+                "<%=moduleName%>:widget/gallery/gallery.js",
+                "<%=moduleName%>:widget/gallery/gallery.scss"
+            ]
+        },
+        "<%=moduleName%>:widget/header/header.js": {
+            "uri": "/static/_%=moduleName%_/widget/header/header_024df70.js",
+            "type": "js",
+            "deps": [
+                "<%=moduleName%>:widget/header/header.scss"
+            ]
+        },
+        "<%=moduleName%>:widget/header/header.scss": {
+            "uri": "/static/_%=moduleName%_/widget/header/header_e92ceeb.css",
+            "type": "css"
+        },
+        "<%=moduleName%>:widget/header/header.tpl": {
+            "uri": "_%=moduleName%_/widget/header/header.tpl",
+            "type": "tpl",
+            "deps": [
+                "app:widget/header/header.js",
+                "<%=moduleName%>:widget/header/header.js",
+                "<%=moduleName%>:widget/header/header.scss"
+            ]
+        },
+        "<%=moduleName%>:widget/introduce/introduce.js": {
+            "uri": "/static/_%=moduleName%_/widget/introduce/introduce_42d5e1b.js",
+            "type": "js",
+            "deps": [
+                "<%=moduleName%>:widget/introduce/introduce.scss"
+            ]
+        },
+        "<%=moduleName%>:widget/introduce/introduce.scss": {
+            "uri": "/static/_%=moduleName%_/widget/introduce/introduce_56330b6.css",
+            "type": "css"
+        },
+        "<%=moduleName%>:widget/introduce/introduce.tpl": {
+            "uri": "_%=moduleName%_/widget/introduce/introduce.tpl",
+            "type": "tpl",
+            "deps": [
+                "app:widget/introduce/introduce.js",
+                "<%=moduleName%>:widget/introduce/introduce.js",
+                "<%=moduleName%>:widget/introduce/introduce.scss"
+            ]
+        }
+    },
+    "pkg": {}
+}

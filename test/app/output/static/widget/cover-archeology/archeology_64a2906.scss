@@ -1,0 +1,61 @@
+.mp-page-archeology {
+  background-color: #000;
+  height: 100%; }
+  .mp-page-archeology .theme-bg {
+    width: 100%;
+    height: 240px;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .mp-page-archeology nav {
+    background-color: #000; }
+  .mp-page-archeology ul {
+    background-color: #000;
+    overflow: hidden; }
+    .mp-page-archeology ul li, .mp-page-archeology ul a {
+      display: block;
+      background-repeat: no-repeat;
+      background-size: 100% 82px; }
+    .mp-page-archeology ul li {
+      position: relative;
+      height: 82px;
+      margin-top: 10px;
+      opacity: 1; }
+    .mp-page-archeology ul a {
+      position: relative;
+      height: 82px;
+      outline: none; }
+    .mp-page-archeology ul .nav-animation {
+      -webkit-animation: flip 1s; }
+    .mp-page-archeology ul .shade {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 82px;
+      opacity: 0.54; }
+    .mp-page-archeology ul .text {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      color: white;
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4); }
+    .mp-page-archeology ul h2 {
+      height: 82px;
+      overflow: hidden;
+      padding-left: 44px;
+      font-size: 1.8rem;
+      line-height: 82px; }
+    .mp-page-archeology ul .zh {
+      width: 90px; }
+    .mp-page-archeology ul .en {
+      padding-left: 15px;
+      font-weight: lighter;
+      font-size: 1.6rem; }
+    .mp-page-archeology ul li:nth-child(3n) .shade {
+      background-color: #532524; }
+    .mp-page-archeology ul li:nth-child(3n+1) .shade {
+      background-color: #2d0b0a; }
+    .mp-page-archeology ul li:nth-child(3n+2) .shade {
+      background-color: #031922; }

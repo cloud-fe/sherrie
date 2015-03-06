@@ -1,0 +1,32 @@
+{
+    "name": "sherrie",
+    "version": "0.0.4",
+    "description": "The command line toolkit",
+    "main": "src/main.js",
+    "bin": {
+        "she": "bin/she"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/lujintan/sherrie.git"
+    },
+    "keywords": [
+        "sherrie",
+        "toolkit",
+        "command",
+        "cli"
+    ],
+    "auth": "lujintan",
+    "email": "yingxuetan@163.com",
+    "license": "https://github.com/lujintan/sherrie/blob/master/LICENSE",
+    "bugs": {
+        "url": "https://github.com/lujintan/sherrie/issues"
+    },
+    "homepage": "https://github.com/lujintan/sherrie",
+    "dependencies": {
+        "clitoolkit": "*",
+        "q": "1.2.0",
+        "sherrie-cmd-fis": "*",
+        "sherrie-cmd-scaffold": "*"
+    }
+}
