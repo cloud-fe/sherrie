@@ -1,6 +1,6 @@
 {
     "name": "sherrie",
-    "version": "0.0.4",
+    "version": "0.0.9",
     "description": "The command line toolkit",
     "main": "src/main.js",
     "bin": {
